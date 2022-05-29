@@ -1,0 +1,301 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    background-color: #000;
+    color: #fff;
+
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    gap: 8px;
+    font-size: 18px;
+}
+
+.logo a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navright {
+    gap: 8px:
+}
+
+.navright a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 6px;
+    border-right: 1px solid rgb(107, 106, 106);
+    padding-right: 16px;
+}
+
+.fa-search {
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 180px;
+    background-color: #000;
+    opacity: 85%;
+    padding: 14px;
+    margin-left: -12px;
+    
+}
+
+.dropdown-content li {
+    list-style: none;
+    margin: 8px 0;
+}
+
+.dropdown-content li:last-of-type {
+    margin-bottom: -4px;
+}
+
+.dropdown-content a {
+    border-right: none;
+    color: rgb(201, 201, 201);
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content a:hover {
+    color: #fff;
+}
+
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 340px;
+    
+}
+
+.social-container a {
+    font-size: 20px;
+    color: #000;
+    
+}
+
+article {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    gap: 100px;
+}
+
+.section-one {
+    width: 700px;
+    
+}
+
+.path {
+    margin: 24px 0;
+}
+
+.path a {
+    font-size: 10px;
+    text-decoration: underline;
+    color: #000;
+    padding-right: 4px;
+    /* border: 1px solid #000; */
+}
+
+h1, h2, h3, .logo {
+    font-family: "lato";
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 16px 0;
+}
+
+h3 {
+    margin: 32px 0 0 0;
+}
+
+.note {
+    margin: 12px 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(107, 106, 106);
+}
+
+.note a {
+    color: rgb(107, 106, 106);
+    text-decoration: underline;
+}
+
+figcaption   {
+    margin: 8px 0;
+    text-align: right;
+    font-size: 10px;
+    color: rgb(107, 106, 106);
+}
+
+p {
+    font-family: "lora";
+    font-size: 16px;
+    line-height: 28px;
+    margin: 16px 0;
+}
+
+p a {
+    text-decoration: none;
+    color: #cb0801f0;
+}
+
+.subscribe-container img {
+    width: 150px;
+}
+
+.subscribe-container {
+    display: flex;
+    /* justify-content: space-between; */
+    border: 1px solid #000;
+    margin: 32px 0;
+}
+
+.subscribe {
+    padding: 16px;
+}
+
+.subscribe h2 {
+    font-size: 26px;
+}
+
+.subscribe p {
+    margin-top: 4px;
+    font-size: 15px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: end;
+    margin: 48px 0;
+}
+
+input {
+    border: none;
+    background-color: rgb(255, 221, 221);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    padding: 12px;
+}
+
+button {
+    border: none;
+    background-color: rgb(243, 195, 37);
+    padding: 12px;
+}
+
+.policy {
+    display: flex;
+    justify-content: end;
+    margin-top: 64px;
+    font-size: 11px;
+}
+
+.policy a {
+    color: #000;
+}
+
+.banner {
+    width: 500px;
+    margin: 24px auto;
+}
+
+.banner a {
+    display: flex;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+}
+
+.banner a p {
+    padding: 16px 0;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+.topics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.topics span {
+    border: 1px solid rgb(170, 162, 162);
+    border-radius: 5%;
+    padding: 4px;
+}
+
+.topics span a {
+    text-decoration: none;
+    color: #000;
+}
+
+.section-two {
+    width: 300px;
+}
+
+.hidden {
+    margin: 50px 0 16px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 32px;
+}
+
+.section-two a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.section-two a img {
+    width: 270px;
+    margin: 16px 0 6px 0;
+}
+
+.section-two a h2 {
+    font-size: 16px;
+    color: rgb(198, 31, 31);
+}
+
+.section-two a p {
+    text-align: center;
+}
